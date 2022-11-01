@@ -1,0 +1,39 @@
+{
+  "presentationTable" : {
+    "name" : "Tempo",
+    "presentationColumns" : [ {
+      "name" : "Data Completa",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_DATE"
+    }, {
+      "name" : "Dia da Semana",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_DAYOFWEEK"
+    }, {
+      "name" : "Mês",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_MONTH"
+    }, {
+      "name" : "Ano",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_YEAR"
+    }, {
+      "name" : "Ano Mês",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_YEARMONTH"
+    }, {
+      "name" : "Dia Do Mês",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_DAYNUMINMONTH"
+    }, {
+      "name" : "Dia Do Ano",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_DAYNUMINYEAR"
+    }, {
+      "name" : "Mês (Número)",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_MONTHNUMINYEAR"
+    }, {
+      "name" : "Semana do Ano",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_WEEKNUMINYEAR"
+    }, {
+      "name" : "É Feriado",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_HOLIDAYFL"
+    }, {
+      "name" : "É Dia de Semana",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.DWDATE.D_WEEKDAYFL"
+    } ]
+  }
+}

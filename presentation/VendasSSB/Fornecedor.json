@@ -1,0 +1,48 @@
+{
+  "presentationTable" : {
+    "name" : "Fornecedor",
+    "presentationColumns" : [ {
+      "name" : "Nome do Forncedor",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.SUPPLIER.S_NAME",
+      "permissions" : [ {
+        "accessor" : "role:BIServiceAdministrator",
+        "access" : "READ"
+      } ]
+    }, {
+      "name" : "Endereço do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.SUPPLIER.S_ADDRESS",
+      "permissions" : [ {
+        "accessor" : "role:BIServiceAdministrator",
+        "access" : "READ"
+      } ]
+    }, {
+      "name" : "Cidade do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.SUPPLIER.S_CITY",
+      "permissions" : [ {
+        "accessor" : "role:BIServiceAdministrator",
+        "access" : "READ"
+      } ]
+    }, {
+      "name" : "País do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.SUPPLIER.S_NATION",
+      "permissions" : [ {
+        "accessor" : "role:BIServiceAdministrator",
+        "access" : "READ"
+      } ]
+    }, {
+      "name" : "Região do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.SUPPLIER.S_REGION",
+      "permissions" : [ {
+        "accessor" : "role:BIServiceAdministrator",
+        "access" : "READ"
+      } ]
+    }, {
+      "name" : "Telefone do Fornecedor",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.SUPPLIER.S_PHONE",
+      "permissions" : [ {
+        "accessor" : "role:BIServiceAdministrator",
+        "access" : "READ"
+      } ]
+    } ]
+  }
+}

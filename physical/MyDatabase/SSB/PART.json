@@ -1,0 +1,52 @@
+{
+  "physicalTable" : {
+    "name" : "PART",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "P_PARTKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "P_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 22,
+      "nullable" : true
+    }, {
+      "name" : "P_MFGR",
+      "dataType" : "CHAR",
+      "length" : 6,
+      "nullable" : true
+    }, {
+      "name" : "P_CATEGORY",
+      "dataType" : "CHAR",
+      "length" : 7,
+      "nullable" : true
+    }, {
+      "name" : "P_BRAND1",
+      "dataType" : "CHAR",
+      "length" : 9,
+      "nullable" : true
+    }, {
+      "name" : "P_COLOR",
+      "dataType" : "VARCHAR",
+      "length" : 11,
+      "nullable" : true
+    }, {
+      "name" : "P_TYPE",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "P_SIZE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "P_CONTAINER",
+      "dataType" : "CHAR",
+      "length" : 10,
+      "nullable" : true
+    } ]
+  }
+}

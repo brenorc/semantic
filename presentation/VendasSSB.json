@@ -1,0 +1,17 @@
+{
+  "subjectArea" : {
+    "name" : "VendasSSB",
+    "sourceBusinessModel" : "businessModel:BusinessModel",
+    "tableOrder" : [ {
+      "name" : "presentationTable:VendasSSB.Clientes"
+    }, {
+      "name" : "presentationTable:VendasSSB.Produtos"
+    }, {
+      "name" : "presentationTable:VendasSSB.Pedidos"
+    }, {
+      "name" : "presentationTable:VendasSSB.Tempo"
+    }, {
+      "name" : "presentationTable:VendasSSB.Fornecedor"
+    } ]
+  }
+}

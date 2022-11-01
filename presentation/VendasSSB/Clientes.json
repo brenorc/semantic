@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Clientes",
+    "presentationColumns" : [ {
+      "name" : "Nome do Cliente",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.CUSTOMER.C_NAME"
+    }, {
+      "name" : "Endereço",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.CUSTOMER.C_ADDRESS"
+    }, {
+      "name" : "Cidade",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.CUSTOMER.C_CITY"
+    }, {
+      "name" : "País",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.CUSTOMER.C_NATION"
+    }, {
+      "name" : "Região",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.CUSTOMER.C_REGION"
+    }, {
+      "name" : "Telefone",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.CUSTOMER.C_PHONE"
+    }, {
+      "name" : "Segmento de Marketing",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.CUSTOMER.C_MKTSEGMENT"
+    } ]
+  }
+}

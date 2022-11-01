@@ -1,0 +1,47 @@
+{
+  "physicalTable" : {
+    "name" : "CUSTOMER",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "C_CUSTKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "C_NAME",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "C_ADDRESS",
+      "dataType" : "VARCHAR",
+      "length" : 25,
+      "nullable" : true
+    }, {
+      "name" : "C_CITY",
+      "dataType" : "CHAR",
+      "length" : 10,
+      "nullable" : true
+    }, {
+      "name" : "C_NATION",
+      "dataType" : "CHAR",
+      "length" : 15,
+      "nullable" : true
+    }, {
+      "name" : "C_REGION",
+      "dataType" : "CHAR",
+      "length" : 12,
+      "nullable" : true
+    }, {
+      "name" : "C_PHONE",
+      "dataType" : "CHAR",
+      "length" : 15,
+      "nullable" : true
+    }, {
+      "name" : "C_MKTSEGMENT",
+      "dataType" : "CHAR",
+      "length" : 10,
+      "nullable" : true
+    } ]
+  }
+}

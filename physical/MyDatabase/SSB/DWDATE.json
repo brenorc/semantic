@@ -1,0 +1,92 @@
+{
+  "physicalTable" : {
+    "name" : "DWDATE",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "D_DATEKEY",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "D_DATE",
+      "dataType" : "CHAR",
+      "length" : 18,
+      "nullable" : true
+    }, {
+      "name" : "D_DAYOFWEEK",
+      "dataType" : "CHAR",
+      "length" : 9,
+      "nullable" : true
+    }, {
+      "name" : "D_MONTH",
+      "dataType" : "CHAR",
+      "length" : 9,
+      "nullable" : true
+    }, {
+      "name" : "D_YEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "D_YEARMONTHNUM",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "D_YEARMONTH",
+      "dataType" : "CHAR",
+      "length" : 7,
+      "nullable" : true
+    }, {
+      "name" : "D_DAYNUMINWEEK",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "D_DAYNUMINMONTH",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "D_DAYNUMINYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "D_MONTHNUMINYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "D_WEEKNUMINYEAR",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "D_SELLINGSEASON",
+      "dataType" : "CHAR",
+      "length" : 12,
+      "nullable" : true
+    }, {
+      "name" : "D_LASTDAYINWEEKFL",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "D_LASTDAYINMONTHFL",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "D_HOLIDAYFL",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "D_WEEKDAYFL",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    } ]
+  }
+}

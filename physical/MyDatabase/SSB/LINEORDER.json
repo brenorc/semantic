@@ -1,0 +1,129 @@
+{
+  "physicalTable" : {
+    "name" : "LINEORDER",
+    "sourceType" : "TABLE",
+    "physicalColumns" : [ {
+      "name" : "LO_ORDERKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LO_LINENUMBER",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LO_CUSTKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LO_PARTKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LO_SUPPKEY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LO_ORDERDATE",
+      "dataType" : "DATETIME",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LO_ORDERPRIORITY",
+      "dataType" : "CHAR",
+      "length" : 15,
+      "nullable" : true
+    }, {
+      "name" : "LO_SHIPPRIORITY",
+      "dataType" : "CHAR",
+      "length" : 1,
+      "nullable" : true
+    }, {
+      "name" : "LO_QUANTITY",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LO_EXTENDEDPRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LO_ORDTOTALPRICE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LO_DISCOUNT",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LO_REVENUE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LO_SUPPLYCOST",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LO_TAX",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : true
+    }, {
+      "name" : "LO_COMMITDATE",
+      "dataType" : "NUMERIC",
+      "length" : 0,
+      "nullable" : false
+    }, {
+      "name" : "LO_SHIPMODE",
+      "dataType" : "CHAR",
+      "length" : 10,
+      "nullable" : true
+    } ],
+    "joins" : [ {
+      "rightTable" : "physicalTable:MyDatabase.SSB.CUSTOMER",
+      "useJoinExpression" : true,
+      "joinExpression" : {
+        "expressionTemplate" : "%1 = %2",
+        "expressionObjects" : [ "physicalColumn:MyDatabase.SSB.LINEORDER.LO_CUSTKEY", "physicalColumn:MyDatabase.SSB.CUSTOMER.C_CUSTKEY" ]
+      },
+      "joinType" : "LEFT_OUTER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.SSB.DWDATE",
+      "useJoinExpression" : true,
+      "joinExpression" : {
+        "expressionTemplate" : "%1 = %2",
+        "expressionObjects" : [ "physicalColumn:MyDatabase.SSB.LINEORDER.LO_ORDERDATE", "physicalColumn:MyDatabase.SSB.DWDATE.D_DATEKEY" ]
+      },
+      "joinType" : "LEFT_OUTER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.SSB.PART",
+      "useJoinExpression" : true,
+      "joinExpression" : {
+        "expressionTemplate" : "%1 = %2",
+        "expressionObjects" : [ "physicalColumn:MyDatabase.SSB.LINEORDER.LO_PARTKEY", "physicalColumn:MyDatabase.SSB.PART.P_PARTKEY" ]
+      },
+      "joinType" : "LEFT_OUTER",
+      "cardinality" : "MANY_TO_ONE"
+    }, {
+      "rightTable" : "physicalTable:MyDatabase.SSB.SUPPLIER",
+      "useJoinExpression" : true,
+      "joinExpression" : {
+        "expressionTemplate" : "%1 = %2",
+        "expressionObjects" : [ "physicalColumn:MyDatabase.SSB.LINEORDER.LO_SUPPKEY", "physicalColumn:MyDatabase.SSB.SUPPLIER.S_SUPPKEY" ]
+      },
+      "joinType" : "LEFT_OUTER",
+      "cardinality" : "MANY_TO_ONE"
+    } ]
+  }
+}

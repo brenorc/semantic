@@ -1,0 +1,27 @@
+{
+  "presentationTable" : {
+    "name" : "Produtos",
+    "presentationColumns" : [ {
+      "name" : "Produto",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.PART.P_NAME"
+    }, {
+      "name" : "Categoria de Produto",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.PART.P_CATEGORY"
+    }, {
+      "name" : "Marca",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.PART.P_BRAND1"
+    }, {
+      "name" : "Cor do Produto",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.PART.P_COLOR"
+    }, {
+      "name" : "Tipo do Produto",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.PART.P_TYPE"
+    }, {
+      "name" : "Tamanho",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.PART.P_SIZE"
+    }, {
+      "name" : "Contêiner",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.PART.P_CONTAINER"
+    } ]
+  }
+}

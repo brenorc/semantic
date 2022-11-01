@@ -1,0 +1,45 @@
+{
+  "presentationTable" : {
+    "name" : "Pedidos",
+    "presentationColumns" : [ {
+      "name" : "Linha do Pedido",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_LINENUMBER"
+    }, {
+      "name" : "Prioridade do Pedido",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_ORDERPRIORITY"
+    }, {
+      "name" : "Prioridade de Envio",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_SHIPPRIORITY"
+    }, {
+      "name" : "Quantidade de Itens",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_QUANTITY"
+    }, {
+      "name" : "Preço Unitário",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_EXTENDEDPRICE"
+    }, {
+      "name" : "Valor do Pedido",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_ORDTOTALPRICE"
+    }, {
+      "name" : "Desconto",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_DISCOUNT"
+    }, {
+      "name" : "Receita",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_REVENUE"
+    }, {
+      "name" : "Custo de Fornecimento",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_SUPPLYCOST"
+    }, {
+      "name" : "Impostos",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_TAX"
+    }, {
+      "name" : "Modo de Envio",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_SHIPMODE"
+    }, {
+      "name" : "Receita Líquida",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_REVENUE_WO_DISCOUNT"
+    }, {
+      "name" : "Receita Acumulada",
+      "sourceLogicalColumn" : "logicalColumn:BusinessModel.LINEORDER.LO_RUNNING_REVENUE"
+    } ]
+  }
+}
